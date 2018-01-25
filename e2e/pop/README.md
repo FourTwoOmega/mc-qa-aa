@@ -1,0 +1,1 @@
+This folder is for Page Object Patters (POPs).
