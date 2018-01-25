@@ -44,7 +44,7 @@ This section will not be expanded further because it is outside of the scope of 
 
 ## Integration Test Scenarios
 
-The 3 test cases preceded by 2 closing pointy braces (>>) have been selected to be implemented.
+The 3 test cases preceded by an asterisk contained in square brackets ([*]) have been selected to be implemented.
 
 ### Passing Criteria
 
@@ -76,7 +76,7 @@ This test suite is for testing the user perfectly entering the intended input; t
 | Outflow             | 2          | No                          |
 | Outflow             | 3          | 2 Yes, 1 No                 |
 | Inflow              | 2          | N/A                         |
-| >> In, Out, Out, In | 4          | N/A, No, Yes, N/A           |
+| [*] In, Out, Out, In | 4          | N/A, No, Yes, N/A           |
 
 ### Imperfect User Test Cases for Adding Budget Items
 
@@ -85,7 +85,7 @@ This test suite is to test what happens when the user either enters invalid inpu
 #### Order User Completes Fields is Irrelevant
 
 1. User enters Category, Amount, then Description
-2. >> User enters Description, Category, then Amount
+2. [*] User enters Description, Category, then Amount
 3. User enters Description, Amount, then Category
 4. User enters Amount, Category, Description
 5. User enters Amount, Description, Category
@@ -94,7 +94,7 @@ This test suite is to test what happens when the user either enters invalid inpu
 
 1. User enters Category, changes Category
 2. User enters Category and Description, then changes Category
-3. >> User enters Category and Amount, then changes Category
+3. [*] User enters Category and Amount, then changes Category
 4. User enters all information, then changes Category
 5. User enters Description, changes Description
 6. User enters Description and Category, then changes Description
