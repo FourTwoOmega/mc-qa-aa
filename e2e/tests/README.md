@@ -1,0 +1,1 @@
+This folder contains the automated test code that is tied to the Feature Files in the `ff` directory and utilizes the Page Object Patterns in the `pop` directory.
