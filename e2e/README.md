@@ -18,12 +18,14 @@ The testing framework will utilize WebdriverIO (http://webdriver.io/) to interac
 
 ## Platforms Tested
 
-| Operating System           | Browser    | Resolution                  |
-| -------------------------- | ---------- | --------------------------- |
-| Windows 10 (Fully Patched) | Chrome 63  | Mobile                      |
-| Windows 10 (Fully Patched) | Chrome 63  | Desktop                     |
-| Ubuntu 16.04 LTS           | Chrome 63  | Mobile                      |
-| Ubuntu 16.04 LTS           | Chrome 63  | Desktop                     |
+All browsers and platforms are fully patched unless otherwise specified.
+
+| Operating System | Browser   | Resolution |
+| ---------------- | --------- | ---------- |
+| Windows 10       | Chrome 63 | Mobile     |
+| Windows 10       | Chrome 63 | Desktop    |
+| Ubuntu 16.04 LTS | Chrome 63 | Mobile     |
+| Ubuntu 16.04 LTS | Chrome 63 | Desktop    |
 
 ## Unit Testable Items
 
@@ -45,6 +47,8 @@ This section will not be expanded further because it is outside of the scope of 
 ## Integration Test Scenarios
 
 The 3 test cases preceded by an asterisk contained in square brackets ([*]) have been selected to be implemented.
+
+Data entered for tests will be cleared after each test by refreshing the page.
 
 ### Passing Criteria
 
@@ -70,13 +74,13 @@ The following passing criteria are to be evaluated at the end of each integratio
 
 This test suite is for testing the user perfectly entering the intended input; this table outlines permutations of scenarios.
 
-| Outflow/Inflow      | Num. Items | Category already in Reports |
-| ------------------- | ---------: | --------------------------- |
-| Outflow             | 1          | Yes                         |
-| Outflow             | 2          | No                          |
-| Outflow             | 3          | 2 Yes, 1 No                 |
-| Inflow              | 2          | N/A                         |
-| [*] In, Out, Out, In | 4          | N/A, No, Yes, N/A           |
+| Outflow/Inflow       | Num. Items | Category already in Use |
+| -------------------- | ---------: | ----------------------- |
+| Outflow              | 1          | Yes                     |
+| Outflow              | 2          | No                      |
+| Outflow              | 3          | 2 Yes, 1 No             |
+| Inflow               | 2          | N/A                     |
+| [*] In, Out, Out, In | 4          | N/A, No, Yes, N/A       |
 
 ### Imperfect User Test Cases for Adding Budget Items
 
